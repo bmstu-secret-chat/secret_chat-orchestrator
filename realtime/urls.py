@@ -3,5 +3,5 @@ from .views import send_message
 
 
 urlpatterns = [
-    path('message/send/', send_message, name='send_message'),
+    path('send/', send_message, name='send_message'),
 ]
