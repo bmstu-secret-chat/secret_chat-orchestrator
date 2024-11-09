@@ -8,7 +8,7 @@ class MessengerProxyConsumer(AsyncWebsocketConsumer):
         await self.accept()
         await self.send(text_data="connect")
         self.realtime_websocket = await websockets.connect("ws://localhost:8002/messenger/")
-    
+
     async def disconnect(self, close_code):
         pass
 
