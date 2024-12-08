@@ -17,6 +17,15 @@
    ``` 
 
 3. Запустите проект с помощью Docker Compose:
+   
+   **a. Для Linux**:
+   ```bash
+   docker-compose up -d
+   ```
+   **b. Для Windows**:
+   ```bash
+   cd windows/
+   ```
    ```bash
    docker-compose up -d
    ```
